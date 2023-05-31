@@ -1,0 +1,46 @@
+1. En la carpeta de PI nos encontramos los arxivos .php con todas las paginas que se han incluido en la web:
+
+- index (home)
+- exp-virtual
+- juegos
+- memory
+
+2. Dentro de la carpeta template se incluyen los 2 archivos .php utilizados para todas las páginas: el header y el footer.
+
+*Se han incluido de esta manera para optimizar y evitar repetir codigo.
+
+3. En la carpeta model se incluyen todos los archivos utilizados para los formularios:
+
+- conexión (para poder realizar la conexión a la base de datos)
+- formulario (formulario de contacto)
+- login (para hacer consultas a la base de datos)
+- register (para recibir y almacenar los datos)
+
+4. En la carpeta copia de seguridad hay una copia con la base de datos de zoo_bcn en la que se incluyen las tablas para el formulario y el de usuario.
+
+5. Dentro de la carpeta de assets hay varias carpetas:
+
+- css: dentro se encuentran todos los archivos ya sean externos o no de los estilos utilizados para el proyecto.
+	- bundle (externo)
+	- footer (estilos para el footer)
+	- header (estilos para el header)
+	- header-virtual (se ha utilizado solamente para crear un header personalizado y específico para la página de exp-virtual)
+	- juegos (estilos de la página de juegos)
+	- style (estilos generales)
+	- virtual (estilos para la página de exp-virtual)
+
+- extras: dentro se encuentra un zip del archivo descargado de la página de fontawesome para la utilización de algunos iconos.
+
+- FontAwesome: dentro se encuentra el archivo css utilizado para los iconos de la página de font awesome.
+
+- fonts: fuentes utilizadas para el proyecto y archivo css con las fuentes cargadas.
+
+- js: se encuentran 3 ficheros de javascript utilizados para el proyecto.
+	- app (funciones globales de javascript, principalmente para la home y exp-virtual)
+	- memory (funciones para el juego de memory)
+	- swiper (funciones para la librería swiper utilizada para el carroussel de la home)
+
+- media: todas las imagenes utilizadas para el proyecto.
+
+
+
